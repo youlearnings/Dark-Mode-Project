@@ -1,0 +1,84 @@
+/*--------------- Contient le style du Test---------------*/
+
+/*
+    L'ensemble du code CSS sera saisir ice...
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightblue;
+}
+
+.principal_container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_button{
+    width: 75px;
+    height: 30px;
+    background: lightblue;
+    margin-top: 85px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: #151d2a;
+    cursor: pointer;
+}
+
+.second_button{
+    width: 75px;
+    height: 30px;
+    background: #151d2a;
+    margin-top: 85px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+/*----style link----*/
+.style_link{
+    background-color: lightblue;
+}
+
+.style_dark{
+    background: #151d2a;
+}
+
+/*----style text----*/
+.style_text_link{
+    color: lightblue;
+}
+
+.style_text_dark{
+    color: #151d2a;
+}
+
+/*----style image--*/
+#style_img{
+    margin-left: 20px;
+}
+
+@font-face {
+    font-family:'poppins';
+    src: url(./poppins.ttf);
+    font-weight: bold;/*pour une police legere*/
+}
+body{
+    font-family: "poppins";
+}
+/*
+    Fin du code CSS...
+*/
